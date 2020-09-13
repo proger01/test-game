@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Start page matches snapshot 1`] = `
+<div>
+  <h2
+    className="mainText"
+    data-testid="title"
+  >
+    Тест: насколько хорошо ты знаешь города Украины
+  </h2>
+  <h5
+    className="subMainText"
+    data-testid="sub-title"
+  >
+    Эй, знаток родных краев, готов(-а) проверить насколько хорошо ты разбираешься в вопросе? Мы подготовили тест, который поможет это узнать. Не забудь написать свой результат в комментариях!
+  </h5>
+  <div>
+    <img
+      alt="img"
+      className="image"
+      src="//tripmydream.cc/travelhub/travel/block_gallery/10/8067/default_108067.jpg"
+    />
+    <div>
+      <button
+        className="button"
+        data-testid="start-button"
+        onClick={[Function]}
+      >
+        Начать
+      </button>
+    </div>
+  </div>
+</div>
+`;

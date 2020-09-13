@@ -1,0 +1,17 @@
+{
+  "extends": ["tslint:latest", "tslint-react"],
+  "rules": {
+    // override tslint-react rules here
+    "quotemark": [true, "single", "jsx-double"],
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "no-implicit-dependencies": [
+      true,
+      ["src", "app", "redux-devtools-extension", "enzyme", "redux-logger", "wix-eventually"]
+    ],
+    "no-submodule-imports": [true, "app", "react-icons", "react-datepicker"],
+    "interface-name": [true, "never-prefix"],
+    "object-literal-key-quotes": [true, "as-needed"],
+    "jsx-no-multiline-js": false,
+    "prefer-for-of": false
+  }
+}

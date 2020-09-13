@@ -1,0 +1,155 @@
+.mainText {
+  color: white;
+  background-color: #be444c;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 42px;
+  margin: 12px;
+}
+
+.subMainText {
+  font-size: 24px;
+  background-color: #be444c;
+  border-radius: 4px;
+  color: white;
+  margin: 12px;
+}
+
+.variantsBlock {
+  margin: 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.variant {
+  cursor: pointer;
+  border: solid 1px black;
+  border-radius: 6px;
+  width: 300px;
+  height: 72px;
+  color: white;
+  background-color: #be444c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.variant:hover {
+  background-color: #a73c43;
+  color: yellow;
+}
+
+.variant:active {
+  outline: none;
+}
+
+.variantAnswer {
+  max-width: 80%;
+}
+
+.fontawesome {
+  width: 10%;
+  position: absolute;
+  right: 6px;
+  float: right;
+}
+
+.image {
+  max-width: 100%;
+  width: 820px;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.question {
+  font-size: 22px;
+  color: white;
+  background-color: #be444c;
+}
+
+.button {
+  background-color: #28a745;
+  width: 100px;
+  height: 48px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+
+.button:hover {
+  background-color: #228a3a;
+}
+
+.button:active {
+  outline: none;
+}
+
+.result {
+  width: 280px;
+  background-color: #be444c;
+  color: white;
+  margin: 6px auto;
+}
+
+.insteadResult {
+  height: 90px;
+}
+
+.endResult {
+  color: white;
+  background-color: #be444c;
+  width: 280px;
+  margin: 6px auto;
+  font-size: 30px;
+}
+
+/* * * * * * **/
+/* Responsive */
+/* * * * * * **/
+
+@media (max-width: 1024px) {
+  .variantsBlock {
+    display: block;
+    flex-direction: column;
+  }
+
+  .variant {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+  }
+
+  .variantAnswer {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .mainText {
+    font-size: 32px;
+  }
+
+  .subMainText {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mainText {
+    font-size: 28px;
+  }
+
+  .subMainText {
+    font-size: 16px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+}
